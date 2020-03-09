@@ -1,7 +1,7 @@
 FROM alpine
 LABEL MAINTAINER="James O'Beirne <james@chaincode.com>"
 
-ARG VERSION=0.19.0.1
+ARG VERSION=0.19.1
 ARG GLIBC_VERSION=2.30-r0
 
 ENV FILENAME bitcoin-${VERSION}-x86_64-linux-gnu.tar.gz
